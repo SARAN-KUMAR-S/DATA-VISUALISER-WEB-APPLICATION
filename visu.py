@@ -66,3 +66,11 @@ st.sidebar.header("Instructions")
 st.sidebar.info("1. Upload a CSV file.\n2. Select the X and Y axes.\n3. Choose the plot type.\n4. Click 'Visualise' tab to see the plot.")
 
 st.sidebar.caption(" DEVELOPED BY TEAM REVANCLAWS")
+st.markdown("""
+            <style>
+            .viewerBadge_link__qRIco
+            {
+            visibility: hidden;
+            }
+            <style/>
+            """,unsafe_allow_html=True)
