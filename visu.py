@@ -8,7 +8,7 @@ st.set_page_config(page_title="Data Visualiser App", page_icon="📊", layout="w
 st.title("📊 Data Visualiser App")
 
 # Sidebar for file upload
-st.sidebar.header("Upload your CSV file")
+st.sidebar.header("Upload your CSV File")
 file = st.sidebar.file_uploader("Choose a CSV file", type="csv")
 
 if file:
